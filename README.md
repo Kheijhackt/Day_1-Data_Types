@@ -1,3 +1,4 @@
+
 ### Task
 Complete the code in the editor below. The variables i, d, and s, are already declared and initialized for you. You must:
 1. Declare 3 variables: one of type int, one of type double, and one of type String.
@@ -70,4 +71,4 @@ int main() {
 
 
 
-This page is managed by Kheijhackt
+This page is managed by **Kheijhackt**
