@@ -30,4 +30,44 @@ HackerRank is the best place to learn and practice coding!
 ### Explanation
 When we sum the integers 4 and 12, we get the integer 16.
 When we sum the floating-point numbers 4.0 and 4.0, we get 8.0.
-When we concatenate HackerRank with is the best place to learn and practice coding!, we get HackerRank is the best place to learn and practice coding!
+When we concatenate HackerRank with is the best place to learn and practice coding!, we get HackerRank is the best place to learn and practice coding.
+### Source Code
+```markdown
+#include <iostream>
+#include <iomanip>
+#include <limits>
+
+using namespace std;
+
+int main() {
+    int i = 4;
+    double d = 4.0;
+    string s = "HackerRank ";
+
+    int num1;
+    double num2;
+    string str;
+    double ans;
+    
+    cin >> num1;
+    cin >> num2;
+    cin.ignore();
+    getline (cin, str);
+
+    cout << i + num1 << endl;
+    ans = num2 + d;
+
+    std::cout << std:: fixed;
+    std::cout << std::setprecision(1);
+    std::cout << ans << endl;
+
+    cout << s;
+    cout << str;
+
+    return 0;
+}
+```
+
+
+
+This page is managed by Kheijhackt
