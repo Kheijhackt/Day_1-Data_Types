@@ -44,27 +44,21 @@ int main() {
     int i = 4;
     double d = 4.0;
     string s = "HackerRank ";
-
     int num1;
     double num2;
     string str;
     double ans;
-    
     cin >> num1;
     cin >> num2;
     cin.ignore();
     getline (cin, str);
-
     cout << i + num1 << endl;
     ans = num2 + d;
-
     std::cout << std:: fixed;
     std::cout << std::setprecision(1);
     std::cout << ans << endl;
-
     cout << s;
     cout << str;
-
     return 0;
 }
 ```
