@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1611334466 source:d:\kheijhackt\practice c and c++\hackerrank\30 days of code\day 1 - data types\main.cpp
+	<iostream>
+	<iomanip>
+	<limits>
+
